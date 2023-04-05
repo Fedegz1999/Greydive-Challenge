@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*FORMULARIO*/
+.formInput{
+    @apply border-b-[1px] bg-white  border-gray-300 w-60 focus:border-b-slate-800
+     outline-none text-sm  h-8 
+}
+
+.formInputCheckBox{
+    @apply border-b-[1px] bg-white  border-gray-300 w-60 focus:border-b-slate-800
+     outline-none text-sm  h-6
+}
+
+.formButton {
+    @apply bg-green-800 hover:bg-green-950
+    text-white px-6 py-2 font-semibold rounded-md
+}
+
+.formInputBody{
+    @apply flex-col flex justify-center mb-4 bg-white py-6 md:pr-60 pr-[7rem] border-[1px] rounded-md md:max-w-[35rem] md:min-w-[35rem]
+}
+
+.formInputTitle{
+    @apply ml-4 mb-6 w-max  font-[450] text-[1.02rem] 
+}
+
+.formPresentation{
+    @apply bg-white border-t-[12px] border-x-[1px] border-b-[1px]
+    border-x-gray-400 border-b-gray-400
+    border-green-900   rounded-md mb-4
+}
+
+.formInputError{
+    @apply ml-4 text-sm pt-2 text-red-500
+}
+
+.formButtonResp{
+    @apply py-2 mb-3 ml-3 hover:bg-red-900 px-4 bg-red-600  text-white rounded-md
+}
+
+/*RESPUESTAS*/
+
+.RespContainerCard{
+    @apply mb-3 mt-3 w-[25rem] border-[1px] rounded-md border-green-800 shadow-sm shadow-black
+}
