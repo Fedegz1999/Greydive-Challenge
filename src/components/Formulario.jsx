@@ -53,14 +53,14 @@ export const Formulario = () => {
 
 
     return (
-        <div className="bg-green-200">
+        <div className="bg-purple-200 bg-gradient-to-b from-purple-950 ">
     {verResp ? 
     <>
-<div className="bg-green-200 h-screen">
+<div className="bg-green-200 bg-gradient-to-b from-green-950 h-screen">
 <div className="mx-auto w-[23rem] py-3 md:w-[35rem] ">
 
 <FormPresentation>
-<h1 className="text-bold ml-3 text-3xl mb-3">Greydive Challenge </h1>
+<h1 className="text-bold ml-3  text-3xl text-center text-purple-600 mb-4"><em>Greydive Challenge </em></h1>
     <h1 className="text-sm ml-3 mb-5">Se registró tu respuesta.</h1>
 
     <Link to={'respuestas'}>
@@ -79,8 +79,8 @@ export const Formulario = () => {
         <div className="mx-auto w-[23rem] py-3 md:w-[35rem] ">
 
         <FormPresentation>
-<h1 className="text-bold text-3xl mb-3">Greydive Challenge </h1>
-<h1 className="mb-2">En este Challenge realicé un formulario con estilo similar a Google form en el cual al completarlo
+<h1 className="text-bold text-3xl text-center text-purple-600 mb-4"><em>Greydive Challenge </em></h1>
+<h1 className="mb-2">En este Challenge realicé un formulario en el cual al completarlo
     y presionar "enviar", se abre una nueva vista con otro botón donde al darle click 
     se pueden ver las respuestas de las distintas personas que
     completaron el formulario.

@@ -5,7 +5,7 @@ export const FormInput = ({title, placeholder, type, name, options, error, onCha
     <div className="mx-auto flex justify-center  ">
     <div className={`formInputBody ${error === name ? "border-red-500" : "border-gray-400"}`} data-aos="fade">
   
-      <span className="formInputTitle">{title} <em className="text-red-500">*</em></span>
+      <span className="formInputTitle">{title}</span>
     
       <div className="flex ml-4 ">
 
@@ -36,7 +36,7 @@ export const FormInput = ({title, placeholder, type, name, options, error, onCha
 
         
       </div>
-      {error === name? <h1 className='formInputError'>(!) Esta pregunta es obligatoria</h1> : null}
+      {error === name? <h1 className='formInputError'>❗ Esta pregunta es obligatoria</h1> : null}
     </div>
     </div>
   );
